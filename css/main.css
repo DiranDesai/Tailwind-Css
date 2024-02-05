@@ -1089,6 +1089,10 @@ img{
     margin-right: 5rem;
   }
 
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:flex {
     display: flex;
   }
