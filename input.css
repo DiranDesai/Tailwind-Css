@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+    height: 2000px;
+}
+
+img{
+    object-fit: cover;
+}
+
+.container{
+    max-width: 1200px;
+  }
+.shadow-dl{
+    box-shadow: 1px 0px 5px 3px rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%);
+}
+
+.posts-container-left button{
+    padding: 3px 15px;
+    transform: scale(0.8);
+    border: 1px solid #ccc;
+}
+.posts-container-left img{
+    width: 40px;
+    height: 40px;
+}
+.posts-container-left h3{
+    color: #21293c;
+}
+.arrow_drop_up{
+    transform: scale(1.9);
+}
+
+.reviews svg{
+    transform: scale(0.7);
+    margin-right: -5px;
+}
+.reviews svg path{
+    fill: orange;
+}
