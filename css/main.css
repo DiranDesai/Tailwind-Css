@@ -1052,6 +1052,10 @@ img{
   .posts-container-left h3{
     font-size: 14px;
   }
+
+  .reviews h3{
+    font-size: 14px;
+  }
 }
 
 .hover\:bg-slate-700:hover {
