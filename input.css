@@ -44,3 +44,10 @@ img{
 .reviews svg path{
     fill: orange;
 }
+
+
+@media(max-width: 778px) {
+    .posts-container-left h3{
+        font-size: 14px;
+    }
+}
